@@ -24,12 +24,13 @@ function wall(navigateTo){
 
     inputPost.placeholder='¡Comparte tus eventos!'
     btnPost.textContent = 'PUBLICAR';
+    btnLogOut.textContent = 'CERRAR SESIÓN';
 
     headerWall.append(imgHeader,btnLogOut);
-    mainWall.append (section1,newPost,inputPost,ctnPost,liPost);
+    mainWall.append (mainWall, section1,newPost,inputPost,btnPost,ctnPost,liPost);
 
 
-
+    return mainWall;
 
 
 
