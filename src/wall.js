@@ -23,7 +23,7 @@ function wall(navigateTo) {
   liPost.setAttribute('id', 'newPost');
   btnPost.setAttribute('id', 'btnPost');
 
-  imgHeader.src = './img/header-mobile2.png';
+  imgHeader.src = './img/logo-title2.png';
   imgHeader.alt = 'header-logo';
   ctnHeader.appendChild(imgHeader);
 
@@ -39,11 +39,10 @@ function wall(navigateTo) {
 
   ctnPost.appendChild(liPost);
   newPost.append(inputPost, btnPost);
-  
 
   section1.append(newPost, ctnPost);
 
-  headerWall.append(ctnHeader,btnLogOut);
+  headerWall.append(ctnHeader, btnLogOut);
   mainWall.append(headerWall, section1);
   return mainWall;
 }

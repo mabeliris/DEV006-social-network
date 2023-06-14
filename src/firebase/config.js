@@ -8,7 +8,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from 'firebase/auth';
-import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+import { getFirestore, collection, getDocs, doc, setDoc, addDoc, deleteDoc} from 'firebase/firestore/lite';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyAwDENqtqqClEQU0v75FqVs3HAI6i2-YWI',
@@ -28,17 +28,24 @@ const signIn = (email, password) => signInWithEmailAndPassword(auth, email, pass
 const provider = new GoogleAuthProvider();
 
 const loginGoogle = () => {
-   
-
   const promesa1 = signInWithPopup(auth, provider);
   return promesa1;
 };
+
+await setDoc(doc(db, "cities", "LA"), {
+  name: "Los Angeles",
+  state: "CA",
+  country: "USA"
+});
 
 export {
   auth,
   db,
   collection,
   getDocs,
+  addDoc,
+  deleteDoc,
+  doc,
   createEmail,
   signIn,
   provider,
