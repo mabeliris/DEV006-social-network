@@ -14,11 +14,11 @@
 * [6. Herramientas](#6-Herramientas)
 * [7. Despliegue de pagina](#7-Despliegue-de-la-pagina)
 
-## 1. Resumen del proyecto
+## 1.Resumen del proyecto
 
 RunnersNetwork es una Single-page Application (SPA) responsive desarrollada en Firebase. Es una red social para corredores que les permite conectarse, compartir información sobre eventos de running, interactuar y motivarse mutuamente. Las principales funcionalidades incluyen registro de usuarios, inicio de sesión, inicio de sesión automático con Google, publicación de información sobre carreras y eliminación de publicaciones existentes.
 
-## 2. Principales usuarios del producto
+## 2.Principales usuarios del producto
 
 Los principales usuarios del producto son los corredores y entusiastas del running, pueden ser tanto principiantes como corredores más experimentados que buscan información y desean conectarse con otros corredores, compartir eventos y obtener motivación para alcanzar sus metas.
 
@@ -33,7 +33,7 @@ Al proporcionar una aplicación específica para runners, el producto ofrece a l
 
 * Interacción social: Proporcionará un espacio donde los usuarios podrán interactuar, dar "like" a las publicaciones de otros corredores, lo que fomentará la interacción social y la construcción de relaciones dentro de la comunidad de running.
 
-## 3. Historias de usuario
+## 3.Historias de usuario
 
 ### Registro de usuario:
 Como usuario interesado en unirme a la red social quiero poder crear una cuenta de acceso para poder acceder a todas las funcionalidades de la plataforma.
@@ -97,19 +97,19 @@ Como usuario de la Red Social de corredores de maratón, quiero poder eliminar m
   -  En la página de detalle de una publicación, debo tener la opción de eliminarla si soy el autor.
   -  Al confirmar la eliminación, la publicación debe desaparecer de la página principal.
 
-## 4. Prototipo de baja:
+## 4.Prototipo de baja:
 
 ![](./src/img/prototipo-de-baja-rn.png)
 
-## 5. Prototipo de alta
+## 5.Prototipo de alta
 
 ![](./src/img/prototipo-de-alta-rn.png)
 
 ## 7. Despliegue de pagina
 
-<details><summary>Links</summary><p>
+<details><summary>Runners Network</summary><p>
 
-  * [Función Callback - MDN](https://developer.mozilla.org/es/docs/Glossary/Callback_function)
+  * [Runners Network](https://https://runnersnetwork-96c39.firebaseapp.com)
 </p></details>
 
 ## Creditos:
