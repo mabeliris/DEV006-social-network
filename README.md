@@ -109,7 +109,7 @@ Como usuario de la Red Social de corredores de maratón, quiero poder eliminar m
 
 <details><summary>Runners Network</summary><p>
 
-  * [Runners Network](https://https://runnersnetwork-96c39.firebaseapp.com)
+  * [Runners Network](https://runnersnetwork-96c39.firebaseapp.com)
 </p></details>
 
 ## Creditos:
