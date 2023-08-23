@@ -11,8 +11,7 @@
 * [3. Historias de usuario](#3-Histrias-de-usuario)
 * [4. Prototipo de baja fidelidad](#4-Prototipo-de-baja-fidelidad)
 * [5. Prototipo de alta fidelidad](#5-Prototipo-de-alta-fidelidad)
-* [6. Herramientas](#6-Herramientas)
-* [7. Despliegue de pagina](#7-Despliegue-de-la-pagina)
+* [6. Despliegue de pagina](#7-Despliegue-de-la-pagina)
 
 ## 1.Resumen del proyecto
 
@@ -105,7 +104,7 @@ Como usuario de la Red Social de corredores de maratón, quiero poder eliminar m
 
 ![](./src/img/prototipo-de-alta-rn.png)
 
-## 7. Despliegue de pagina
+## 6. Despliegue de pagina
 
 <details><summary>Runners Network</summary><p>
 
